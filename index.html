@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/index.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
+
+<!-- Offcanvas Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="Images/Header Logo (Small).png" alt="Logo" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#research">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#research">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#research">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#research">Contact</a>
+        </li>
+        <!-- Add more nav links here -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="text-center py-5">
+  <div class="container">
+    <img src="Images/NWACS Logo.png" alt="Medium Logo" height="200">
+    <h1>NWACS-Northwest Augmentative<br> Communications Services UI Design<br>Case Study</h1>
+    <h3>Northwest Augmentative Communication Society</h3>
+    <p>A non-profit organization based in Seattle, Washington that represents the northwestern United States. Focusing on empowering individuals with a communication deficit, by connecting the with technology and other tools that allow them to use their voice through alternative ways like devices that they utilize to share their words.</p>
+  </div>
+</section>
+
+<!-- Two Images Card -->
+<section id="two-images" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="Images/Desktop-Protoype-NWACS-Heuristic-Evaluation 1.png" class="card-img-top" alt="Image 1">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Images/Mobile-Protoype-NWACS-Heuristic-Evaluation 1.png" class="card-img-top" alt="Image 2">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- My Contributions -->
+<section id="my-contributions" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>My Contributions</h2>
+        <p>In this project my main contributions were putting together a testing plan on the original website followed later in the project with how we would test the redesign. I also helped build and design UI assets throughout the site, like carousels and card overlays.</p>
+      </div>
+      <div class="col-md-6">
+        <!-- Add carousel here -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="Images/Rectangle 33.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Images/Rectangle 34.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Images/Rectangle 35.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Images/Rectangle 36.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Images/Rectangle 37.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="Images/Rectangle 38.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Another Card with Title and Image -->
+<section id="another-card" class="py-5">
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-body">
+        <h2>What we started with</h2>
+        <img src="Images/NWACS Text Sample Screenshot 1.png" class="img-fluid" alt="Image 3">
+        <p class="whatWeStarted">The original website has a decent overall content organization, but users struggle to locate specific content due to poor content chunking, excessive text, and lack of visual balance.
+          Users have to spend the majority of their time scanning through bodies of text to find the information they are looking for and can easily miss their target if they aren’t focused enough or aren’t scanning for the correct words.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Large Carousel Card -->
+<section id="large-carousel" class="py-5">
+  <div class="container">
+    <!-- Add large carousel here -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="Images/Heuristics slide.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>One of our heuristics screenshots</h5>
+            <p>Showing the social media links to the side as well as the initial text breakdown.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="Images/Original Calendar.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>NWACS.info's Current Calendar</h5>
+            <p>Revamp the calendar to make it easier to read and clickable.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="Images/showing text and links blending.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Buttons and links example from our heuristics evaluation</h5>
+            <p>Re-work buttons and links for consistency and to be in line with the best design practices.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h2 class="text-center">How we wanted to make this site better</h2>
+    <p class="text-center">Our redesign was centered around a mild homepage re-organization.<br> 
+      Consolidating the social media links to one spot on the side the page.<br>
+      Add more imagery to break up the text and make the user experience more enjoyable.<br>
+      Revamp the calendar to make it easier to read and clickable.<br>
+      Re-work buttons and links for consistency and to be in line with best design practices.<br>
+      To create a more enjoyable user experience through visual design and graphics and so much more that is detailed throughout the case study.</p>
+  </div>
+</section>
+<h1 class="caseStudyfont">The Case Study</h1>
+<!-- Research Section -->
+<section id="research" class="py-5">
+  <div class="container">
+    <!-- Research section cards -->
+    <div class="card text-center">
+      <h2 class="card-title py-3">Research</h2>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="Images/whiteboarding.jpg" class="img-fluid" alt="Research Image">
+          </div>
+          <div class="col-md-8">
+            <p class="card-text">Research for evaluating the functionality, intuitiveness, and design of NWACS.info included:<br>
+
+              Primary Testing<br>
+              Heuristic Evaluations<br>
+              Mid-fidelity 5-second user testing<br>
+              
+              The following will discuss the process used and the outcomes of each of these.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h3 class="card-title">User Tasks</h3>
+      <p>Asking four users to complete navigation tasks, to better understand user interaction with<br> NWACS.info. We used this information to evaluate the intuitiveness of the current site and<br> efficiency of it’s user interface.<br>
+
+        By observing how users interacted with the navigation, potential issues became apparent.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="Images/NWACS info.png" class="img-fluid mb-3" alt="Image 1">
+          <img src="Images/Group 95.png" class="img-fluid" alt="Image 2">
+        </div>
+        <div class="col-md-4">
+          <img src="Images/AAC ID search.png" class="img-fluid mb-3" alt="Image 3">
+          <img src="Images/Group 96.png" class="img-fluid" alt="Image 4">
+        </div>
+        <div class="col-md-4">
+          <img src="Images/Blog post info.png" class="img-fluid mb-3" alt="Image 5">
+          <img src="Images/Group 97.png" class="img-fluid" alt="Image 6">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h3 class="card-title">Heuristics Evaluation<br> Key take-aways</h3>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="card-text text-md-start">Search bar lacks readily recognizable <br>iconography and graphics<br>
+            Side Menu is overly complicated and adds to<br> visual noise<br>
+            Second set of social links is redundant<br>
+            Button styles and links are inconsistent in<br> format and click ability<br>
+            Events Calendar has similar visual priority <br>for all events including the “biggest event of<br> the year.” The calendar also lacks consistent<br> formatting in the bottom row of cards</p>
+        </div>
+        <div class="col-md-6">
+          <img src="Images/Heuristics slide.png" class="img-fluid" style="max-height: 600px;" alt="Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card text-center">
+    <div class="card-header" style="background-image: url('Images/image\ 4.png') height= "300" ; background-size: cover;">
+      <h5 class="card-title text-white pt-3">In Summary</h5>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">Summary</h3>
+      <p class="card-text">Paragraph 1: The current NWACS site has decent overall content organization, but users struggle to locate specific content due to poor content chunking, excessive text, and lack of visual balance.  Users have to spend the majority of their time scanning through bodies of text to find the information they are looking for and can easily miss their target if they aren’t focused enough or aren’t scanning for the correct words.</p>
+      <p class="card-text">Paragraph 2: Scanning huge bodies of texts takes more time than having symbols, images, and key headings that are automatically recognized.  This extra work can prove frustrating for users and can even lead them to abandon the task altogether--as one of our users did.</p>
+      <p class="card-text">Paragraph 3: Additionally, the current visual design aims to be simple and straight forward, but the bold red and white color scheme is loud, further adds to the overall sameness of information and makes it difficult to identify key information.</p>
+    </div>
+  </div>
+  
+  
+</section>
+
+<!-- Definition/Ideation Section -->
+<section id="definition-ideation" class="py-5">
+  <div class="container">
+    <!-- Definition/Ideation section cards -->
+    <div class="card text-center">
+      <h2 class="card-title py-3">Definition/Ideation</h2>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="Images/image 6.png" class="img-fluid" alt="Research Image">
+          </div>
+          <div class="col-md-8">
+            <p class="card-text">Why...<br>
+              Our goal in tackling these tasks is to reduce <br>user scanning fatigue and increase efficiency<br> of completing tasks on the NWACS site.  To<br> create a more enjoyable user experience <br>through visual design and graphics, and to<br> make this site accessible to all users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-header" style="background-image: url('Images/image\ 4.png') height= "300" ; background-size: cover;">
+        <h5 class="card-title text-white pt-3">In Summary</h5>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Redesing Tasks</h3>
+        <p class="card-text"> Continuing off of our testing and evaluation outcomes:</p>
+        <p class="card-text"> Our biggest tasks were:<br>
+          To centralize the social links to only one area.<br>
+          Add in more imagery to break up the text and make the user experience more enjoyable.<br>
+          Revamp the calendar and make it clickable.<br>
+          Re-work buttons and links for consistency and to be in line with best design practices.<br>
+          Include an easily recognizable search bar.<br>
+          Reduce visual/textual noise by consolidating the secondary side navigation into the main header.</p>
+        
+      </div>
+  </div>
+</section>
+
+<!-- Prototyping Section -->
+<section id="prototyping" class="py-5">
+  <div class="container">
+    <!-- Prototyping section cards -->
+    <div class="card text-center">
+      <div class="card-body">
+        <h3 class="card-title">Prototyping</h3>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Initial redesign wireframes focused <br>strongly on information chunking by <br>simplifying text and combining it with<br> consistent graphics and imagery.</p>
+          </div>
+          <div class="col-md-3">
+            <img src="Images/Desktop Mid-fi Video 1 1.png" class="img-fluid" alt="Image 1">
+          </div>
+          <div class="col-md-3">
+            <img src="Images/Mobile Mid-Hi-Fi Video 1.png" class="img-fluid" alt="Image 2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h3 class="card-title">A Closer Look at Navigation: Main Navigation</h3>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img src="Images/Desktop-Protoype-NWACS-Heuristic-Evaluation 3.png" class="img-fluid" alt="Image 1">
+              <img src="Images/Header Nav image 1.png" class="img-fluid position-absolute top-0 start-50 translate-middle" style="width: 50%;" alt="Image 2">
+            </div>
+          </div>
+          <div class="col-md-6 text-md-start">
+            <p class="card-text">The side menu was consolidated into a main navigation menu, and social media icons were pinned to the side of the viewport. A search bar was integrated into the main navigation making it easy to scan the site and find exactly what you are looking for. The menu is also fixed, so it can be accessed from any scroll point within the page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h3 class="card-title">A Closer Look at Navigation: Footer Navigation</h3>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="position-relative">
+              <img src="Images/Desktop Footer Prototype 1.png" class="img-fluid" alt="Image 1">
+              <img src="Images/Footer Nav Image 1.png" class="img-fluid position-absolute top-0 start-50 translate-middle" style="width: 50%;" alt="Image 2">
+            </div>
+          </div>
+          <div class="col-md-6 text-md-start">
+            <p class="card-text">The current footer is functional and the changes were minimal, with both desktop as well as mobile. Referring back to our reorganization of the side menu, some of those items were re-distributed to the footer including: contact us, privacy policy, and disclosures. A mission statement was simply added to increase visibility of the work of NWACS.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h3 class="card-title">Mobile Menu Navigation</h3>
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="Images/Original Mobile Menu Navigation 1.png" class="img-fluid mb-3" alt="Image 1">
+          </div>
+          <div class="col-md-3">
+            <p class="card-text">Original</p>
+            <img src="Images/Original Mobile Menu Expanded 1.png" class="img-fluid mb-3" alt="Image 2">
+          </div>
+          <div class="col-md-3">
+            <img src="Images/Mobile Redesign.png" class="img-fluid mb-3" alt="Image 3">
+          </div>
+          <div class="col-md-3">
+            <p class="card-text">Revised</p>
+            <img src="Images/Redesigned Mob nav.png" class="img-fluid" alt="Image 4">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- Testing Section -->
+<section id="testing" class="py-5">
+  <div class="container">
+    <!-- Testing section cards -->
+    <div class="card text-center">
+      <h2 class="card-title py-3">Testing</h2>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="Images/image 7.png" class="img-fluid" alt="Research Image">
+          </div>
+          <div class="col-md-8">
+            <p class="card-text">Why...<br>
+              Five second testing was chosen to test the overall design and layout of key information on the home page. Since we didn’t have an extensive design for them to test this worked out best to see if we were  on the right track.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Future Plans Section -->
+<section id="future-plans" class="py-5">
+  <div class="container">
+    <!-- Future Plans section cards -->
+    <div class="card text-center">
+      <div class="card-body">
+        <h3 class="card-title">Heuristics Evaluation<br> Key take-aways</h3>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text text-md-start">Search bar lacks readily recognizable <br>iconography and graphics<br>
+              Side Menu is overly complicated and adds to<br> visual noise<br>
+              Second set of social links is redundant<br>
+              Button styles and links are inconsistent in<br> format and click ability<br>
+              Events Calendar has similar visual priority <br>for all events including the “biggest event of<br> the year.” The calendar also lacks consistent<br> formatting in the bottom row of cards</p>
+          </div>
+          <div class="col-md-6">
+            <img src="Images/Heuristics slide.png" class="img-fluid" style="max-height: 600px;" alt="Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>Let's touch base!</p>
+    <div class="row">
+      <div class="col-md-4">
+        <p>Email me at: <a href="mailto:daolson123@gmail.com">daolson123@gmail.com</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="Images/Full Size Logo.png" alt="Logo" height="200">
+      </div>
+      <div class="col-md-4">
+        <p>Check out my LinkedIn: <a href="#">Dale Olson</a></p>
+      </div>
+    </div>
+    <p>Copyright 2024</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
